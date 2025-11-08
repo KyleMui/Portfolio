@@ -1,0 +1,72 @@
+.navbar-container {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    background-color: white;
+    padding: 20px 40px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+body {
+    padding-top: 80px; /* Add padding to avoid content hiding behind navbar */
+}
+
+.navbar-left {
+    justify-self: start;
+}
+
+.navbar-center {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.navbar-right {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.navbar-name {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+
+.navbar-center a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.navbar-center a:hover {
+    text-decoration: underline;
+}
+
+.navbar-center a.active {
+    color: blue;
+    position: relative;
+}
+
+.navbar-center a.active::after {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: blue;
+}
+
+.navbar-right img {
+    height: 24px;
+    transition: transform 0.2s ease;
+}
+
+.navbar-right img:hover {
+    transform: scale(1.2);
+}

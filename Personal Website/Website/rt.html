@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>R&T Deposit Solutions</title>
+    <link rel="stylesheet" href="navbar2.css">
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: white;
+            color: black;
+            padding-top: 80px;
+        }
+        .content-wrapper {
+            padding: 40px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .content-wrapper h2 {
+            color: blue;
+            margin-bottom: 20px;
+        }
+        .content-wrapper p {
+            line-height: 1.8;
+            font-size: 18px;
+        }
+        .back-link {
+            padding: 20px 40px;
+        }
+        .back-link a {
+            background-color: lightblue;
+            color: black;
+            padding: 8px 16px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            font-size: 16px;
+        }
+
+        .site-footer {
+            text-align: center;
+            padding: 30px 20px;
+            font-size: 14px;
+            color: gray;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="navbar-container">
+        <div class="navbar-left">
+            <span class="navbar-name">Kyle Mui</span>
+        </div>
+        <div class="navbar-center">
+            <a href="index.html">Home</a>
+            <a class="active" href="Project.html">Projects</a>
+            <a href="about_me.html">About Me</a>
+            <a href="Kyle_Mui_Resume.pdf" target="_blank">Resume</a>
+        </div>
+        <div class="navbar-right">
+            <span style="font-weight: bold; font-size: 18px; color: white;">Contact me:</span>
+            <a href="https://www.linkedin.com/in/kyle-mui/" target="_blank" title="LinkedIn">
+                <img alt="LinkedIn profile for Kyle Mui" src="linkedin_icon.png"/>
+            </a>
+            <a href="https://github.com/KyleMui" target="_blank" title="GitHub">
+                <img alt="GitHub profile for Kyle Mui" src="github_icon.png"/>
+            </a>
+            <button id="copy-email" style="background: none; border: none; cursor: pointer;" title="Copy Email">
+                <img alt="Copy Kyle Mui’s email address" src="email_icon.png"/>
+            </button>
+        </div>
+    </div>
+        <a href="Project.html" style="
+                position: fixed;
+                top: 80px; /* lower than navbar */
+                left: 30px;
+                background-color: rgba(173, 216, 230, 0.95); /* more opaque lightblue */
+                color: black;
+                padding: 10px 16px;
+                border-radius: 10px;
+                text-decoration: none;
+                font-weight: bold;
+                font-size: 14px;
+                z-index: 1001;
+                box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+                ">← Back to Projects</a>
+    <div class="content-wrapper">
+        <h2>R&T Deposit Solutions (Upcoming Internship - Summer 2025)</h2>
+        <p>
+            I will be joining <strong>R&T Deposit Solutions</strong> as a Summer 2025 intern. This opportunity will allow me to contribute to the development and integration of banking infrastructure and real-time financial systems.
+        </p>
+        <p>
+            While the internship has not yet begun, I am excited to explore work related to cloud-based architecture and scalable backend platforms, particularly as they relate to modern financial technology solutions.
+        </p>
+    </div>
+    <script src="copyEmail.js" defer></script>
+
+    <footer class="site-footer">
+        © 2025 Kyle Mui
+    </footer>
+  
+</body>
+</html>

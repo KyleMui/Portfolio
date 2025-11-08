@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Home - Kyle Mui
+  </title>
+  <link rel="stylesheet" href="navbar.css">
+  <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="shortcut icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: black;
+            color: white;
+            padding-top: 100px;
+        }
+        .main-content {
+            height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start; 
+            text-align: left;
+            padding: 100px 80px;
+        }
+        .main-content h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        .main-content p {
+            font-size: 20px;
+            margin-bottom: 30px;
+            max-width: 600px;
+        }
+        .main-content a {
+            color: lightblue;
+            font-weight: bold;
+            text-decoration: underline;
+            font-size: 18px;
+            display: block;
+            margin-top: 10px;
+        }
+        
+        .site-footer {
+            text-align: center;
+            padding: 30px 20px;
+            font-size: 14px;
+            color: gray;
+        }
+
+  </style>
+ </head>
+ <body>
+  <div class="navbar-container">
+   <div class="navbar-left">
+    <span class="navbar-name">
+     Kyle Mui
+    </span>
+   </div>
+   <div class="navbar-center">
+    <a class="active" href="index.html">
+     Home
+    </a>
+    <a href="Project.html">
+        Projects
+    </a>
+    <a href="about_me.html">
+     About Me
+    </a>
+    <a href="Kyle_Mui_Resume.pdf" target="_blank">
+     Resume
+    </a>
+   </div>
+   <div class="navbar-right">
+    <span style="font-weight: bold; font-size: 18px; color: black;">Contact me:</span>
+    <a href="https://www.linkedin.com/in/kyle-mui/" target="_blank" title="LinkedIn">
+     <img alt="LinkedIn" src="linkedin_icon.png"/>
+    </a>
+    <a href="https://github.com/KyleMui" target="_blank" title="GitHub">
+     <img alt="GitHub" src="github_icon.png"/>
+    </a>
+    <button id="copy-email" style="background: none; border: none; cursor: pointer;" title="Copy Email">
+     <img alt="Copy Email" src="email_icon.png" title="Copy Email"/>
+    </button>
+   </div>
+  </div>
+  <div class="main-content" style="text-align: left; padding: 100px 80px; max-width: 800px;">
+   <h1 style="font-size: 48px; color: lightblue; margin-bottom: 15px; font-weight: bold;">
+    Welcome! I’m Kyle Mui
+   </h1>
+   <p style="color: gray; font-style: italic; font-size: 14px; margin-bottom: 20px;">
+    Last updated May 2025
+   </p>
+   <p style="font-size: 18px; max-width: 800px; margin: 0 auto; line-height: 1.6;">
+    I'm Kyle Mui, an Electrical and Computer Engineering student at Cornell with a focus on embedded systems, robotics, and full-stack development. I enjoy solving cross-layer technical problems and designing solutions that blend hardware and software for real-world impact.
+   </p>
+  </div>
+  <script src="copyEmail.js" defer></script>
+
+  <footer class="site-footer">
+    © 2025 Kyle Mui
+  </footer>
+  
+ </body>
+</html>

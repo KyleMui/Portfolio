@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Arista Projects</title>
+    <link rel="stylesheet" href="navbar2.css">
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: white;
+            color: black;
+            padding-top: 80px;
+        }
+
+        .content-wrapper {
+            padding: 40px;
+            display: flex;
+            gap: 40px;
+            align-items: flex-start;
+        }
+
+        .content-wrapper h2 {
+            color: blue;
+            margin-bottom: 20px;
+        }
+
+        .content-wrapper ul {
+            padding-left: 20px;
+            line-height: 1.8;
+        }
+
+        .content-wrapper img {
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+            max-width: 100%;
+        }
+
+        .site-footer {
+            text-align: center;
+            padding: 30px 20px;
+            font-size: 14px;
+            color: gray;
+        }
+
+  </style>
+ </head>
+ <body>
+  <div class="navbar-container">
+   <div class="navbar-left">
+    <span class="navbar-name">
+     Kyle Mui
+    </span>
+   </div>
+   <div class="navbar-center">
+    <a href="index.html">
+     Home
+    </a>
+    <a class="active" href="Project.html">
+    Projects
+    </a>
+    <a href="about_me.html">
+     About Me
+    </a>
+    <a href="Kyle_Mui_Resume.pdf" target="_blank">
+     Resume
+    </a>
+   </div>
+   <div class="navbar-right">
+    <span style="font-weight: bold; font-size: 18px; color: white;">Contact me:</span>
+    <a href="https://www.linkedin.com/in/kyle-mui/" target="_blank" title="LinkedIn">
+     <img alt="LinkedIn" src="linkedin_icon.png"/>
+    </a>
+    <a href="https://github.com/KyleMui" target="_blank" title="GitHub">
+     <img alt="GitHub" src="github_icon.png"/>
+    </a>
+    <button id="copy-email" style="background: none; border: none; cursor: pointer;" title="Copy Email">
+     <img alt="Copy Email" src="email_icon.png"/>
+    </button>
+   </div>
+  </div>
+    <a href="Project.html" style="
+            position: fixed;
+            top: 80px; /* lower than navbar */
+            left: 30px;
+            background-color: rgba(173, 216, 230, 0.95); /* more opaque lightblue */
+            color: black;
+            padding: 10px 16px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 14px;
+            z-index: 1001;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+            ">← Back to Projects</a>
+
+  </div>
+  <div class="content-wrapper">
+   <div style="flex: 1;">
+    <h2>
+     Arista Networks Internship Projects
+    </h2>
+    <ul>
+     <li>
+      <strong>
+       CloudVision Dashboard Automation:
+      </strong>
+      Wrote Python scripts to manage and display device tags and visualize real-time connections within Arista’s CloudVision Studio.
+     </li>
+     <li>
+      <strong>
+       Spine-and-Leaf Network Generation:
+      </strong>
+      Developed a Mako + Python script to construct spine-and-leaf topologies, simplifying deployment in CloudBuilder and CloudVision Studio.
+     </li>
+     <li>
+      <strong>
+       PyAVD Configuration:
+      </strong>
+      Customized Arista’s PyAVD Python package to be compatible with CloudVision Studio for configuration automation.
+     </li>
+     <li>
+      <strong>
+       Git-Based Configuration Management:
+      </strong>
+      Used Git to manage configurations and create pull requests across Arista’s internal infrastructure.
+     </li>
+     <li>
+      <strong>
+       Certification Guide Creation:
+      </strong>
+      Created a comprehensive study plan to help interns prepare for Arista ACE: L1 Certification.
+     </li>
+    </ul>
+   </div>
+   <div style="flex: 1; display: flex; flex-direction: column; gap: 20px; justify-content: center; align-items: center;">
+    <img alt="CloudVision Dashboard" src="arista2.jpg"/>
+    <img alt="Spine-and-Leaf Topology Diagram" src="arista3.jpg"/>
+   </div>
+  </div>
+  <script src="copyEmail.js" defer></script>
+
+  <footer class="site-footer">
+    © 2025 Kyle Mui
+  </footer>  
+ </body>
+</html>

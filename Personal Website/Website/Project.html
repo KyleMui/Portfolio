@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects</title>
+  <link rel="stylesheet" href="navbar.css" />
+  <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="shortcut icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Courier New', Courier, monospace;
+      background-color: black;
+      color: white;
+      padding-top: 80px;
+    }
+
+    .projects,
+    .certifications {
+      padding: 40px;
+      margin: 0 auto;
+      max-width: 800px;
+    }
+
+    h2 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+
+    .filter-bar {
+      margin-bottom: 30px;
+      display: flex;
+      gap: 10px;
+    }
+
+    .filter-button {
+      background-color: lightblue;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 14px;
+      transition: background-color 0.2s;
+    }
+
+    .filter-button:hover {
+      background-color: deepskyblue;
+    }
+
+    .timeline {
+      position: relative;
+      padding-left: 20px;
+    }
+
+    .timeline::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0px;
+      width: 4px;
+      background: lightblue;
+    }
+
+    .timeline-item {
+      position: relative;
+      margin-bottom: 40px;
+    }
+
+    .timeline-date {
+      font-weight: bold;
+      margin-bottom: 8px;
+      color: #aaa;
+    }
+
+    .timeline-content {
+      background: rgba(255, 255, 255, 0.05);
+      padding: 15px 20px;
+      border-radius: 8px;
+      border-left: 4px solid lightblue;
+    }
+
+    .timeline-content h3 {
+      margin: 0 0 8px;
+      font-size: 20px;
+      color: lightblue;
+    }
+
+    .timeline-content img {
+      width: 100%;
+      max-width: 250px;
+      margin: 10px 0;
+      border-radius: 8px;
+      transition: transform 0.3s ease;
+    }
+
+    .timeline-content img:hover {
+      transform: scale(1.05);
+      cursor: pointer;
+    }
+
+    .certifications ul {
+      padding-left: 20px;
+      line-height: 1.8;
+    }
+
+    .certifications li strong {
+      font-size: 18px;
+    }
+
+    .certifications ul ul {
+      padding-left: 20px;
+      font-size: 16px;
+    }
+
+    .site-footer {
+      text-align: center;
+      padding: 30px 20px;
+      font-size: 14px;
+      color: gray;
+    }
+
+    .scroll-reveal {
+      opacity: 0;
+      transform: translateX(50px);
+      transition: opacity 0.6s ease, transform 0.6s ease;
+    }
+
+    .scroll-reveal.visible {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar-container">
+    <div class="navbar-left">
+      <span class="navbar-name">Kyle Mui</span>
+    </div>
+    <div class="navbar-center">
+      <a href="index.html">Home</a>
+      <a href="Project.html" class="active">Projects</a>
+      <a href="about_me.html">About Me</a>
+      <a href="Kyle_Mui_Resume.pdf" target="_blank">Resume</a>
+    </div>
+    <div class="navbar-right">
+      <span style="font-weight: bold; font-size: 18px; color: black;">Contact me:</span>
+      <a href="https://www.linkedin.com/in/kyle-mui/" target="_blank" title="LinkedIn">
+        <img src="linkedin_icon.png" alt="LinkedIn profile for Kyle Mui" />
+      </a>
+      <a href="https://github.com/KyleMui" target="_blank" title="GitHub">
+        <img src="github_icon.png" alt="GitHub profile for Kyle Mui" />
+      </a>
+      <button id="copy-email" title="Copy Email" style="background: none; border: none; cursor: pointer;">
+        <img src="email_icon.png" alt="Copy Kyle Mui’s email address" />
+      </button>
+    </div>
+  </div>
+
+  <div class="projects">
+    <h2>Projects Timeline</h2>
+    <p style="margin-bottom: 20px; font-style: italic; font-size: 16px; color: lightgray;">
+      ➤ Click on a logo to view more details about each project.
+    </p>
+
+    <div class="filter-bar">
+      <button class="filter-button" onclick="filterProjects('all')">All</button>
+      <button class="filter-button" onclick="filterProjects('internship')">Internships</button>
+      <button class="filter-button" onclick="filterProjects('team')">Teams</button>
+    </div>
+
+    <div class="timeline">
+      <div class="timeline-item internship">
+        <div class="timeline-date">Summer 2025</div>
+        <div class="timeline-content scroll-reveal">
+          <a href="rt.html" style="text-decoration: none; color: inherit;">
+            <h3>R&T Deposit Solutions Internship (Upcoming)</h3>
+            <img src="rt_logo.jpg" alt="R&T Deposit Solutions Logo" title="Click to view R&T project details" />
+            <p>Internship focused on software development, autonomous scripts and data analysis.</p>
+          </a>
+        </div>
+      </div>
+
+      <div class="timeline-item team">
+        <div class="timeline-date">2023–Present</div>
+        <div class="timeline-content scroll-reveal">
+          <a href="cmr.html" style="text-decoration: none; color: inherit;">
+            <h3>Cornell Mars Rover</h3>
+            <img src="cmr_logo.jpg" alt="Cornell Mars Rover Logo" title="Click to view Mars Rover project" />
+            <p>Led the electrical subteam in designing PCBs and integrating systems for competition as part of the University Rover Challenge.</p>
+          </a>
+        </div>
+      </div>
+
+      <div class="timeline-item internship">
+        <div class="timeline-date">Summer 2021–2024</div>
+        <div class="timeline-content scroll-reveal">
+          <a href="arista.html" style="text-decoration: none; color: inherit;">
+            <h3>Arista Networks Internship</h3>
+            <img src="arista.jpg" alt="Arista Networks Logo" title="Click to view Arista internship work" />
+            <p>Automated CloudVision dashboards, implemented spine-and-leaf topology generation, and contributed to PyAVD configurations.</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div style="text-align: right; padding: 0 40px 10px 0; font-size: 48px; color: lightblue; font-style: italic;">
+    Scroll down ↓
+  </div>
+
+  <hr style="border: none; height: 2px; background-color: white; margin: 60px 0;" />
+
+  <div class="certifications">
+    <h2>Certifications</h2>
+    <ul>
+      <li><strong>Arista ACE: L1 Certification</strong>
+        <ul>
+          <li>Ability to configure basic networks based on Leaf-Spine architecture</li>
+          <li>Understanding of fundamental network protocols</li>
+          <li>Applied configuration via Arista’s CloudVision platform</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <script src="copyEmail.js" defer></script>
+  <script>
+    function filterProjects(category) {
+      const items = document.querySelectorAll('.timeline-item');
+      items.forEach(item => {
+        if (category === 'all' || item.classList.contains(category)) {
+          item.style.display = 'block';
+        } else {
+          item.style.display = 'none';
+        }
+      });
+    }
+
+    const revealElements = document.querySelectorAll('.scroll-reveal');
+
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        } else {
+          entry.target.classList.remove('visible');
+        }
+      });
+    }, {
+      threshold: 0.5
+    });
+
+    revealElements.forEach(el => observer.observe(el));
+  </script>
+
+  <footer class="site-footer">
+    © 2025 Kyle Mui
+  </footer>
+</body>
+</html>
