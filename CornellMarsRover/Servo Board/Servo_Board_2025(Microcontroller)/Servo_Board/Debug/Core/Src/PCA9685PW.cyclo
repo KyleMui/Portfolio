@@ -1,0 +1,23 @@
+../Core/Src/PCA9685PW.c:12:9:PCA9685_Init	1
+../Core/Src/PCA9685PW.c:28:6:Servo_Init	2
+<<<<<<< HEAD
+../Core/Src/PCA9685PW.c:41:19:PCA9685_ReadRegister	1
+../Core/Src/PCA9685PW.c:46:19:PCA9685_ReadRegisters	1
+../Core/Src/PCA9685PW.c:51:19:PCA9685_WriteRegister	1
+../Core/Src/PCA9685PW.c:56:19:PCA9685_WriteRegisters	1
+../Core/Src/PCA9685PW.c:62:19:PCA9685_SetBit	4
+../Core/Src/PCA9685PW.c:76:6:PCA9685_SetPWMFrequency	3
+../Core/Src/PCA9685PW.c:88:19:PCA9685_SetPWM	1
+../Core/Src/PCA9685PW.c:102:19:PCA9685_SetServoAngle	3
+../Core/Src/PCA9685PW.c:113:7:PCA9685_GetServoAngle	4
+../Core/Src/PCA9685PW.c:140:6:velocity_control	9
+=======
+../Core/Src/PCA9685PW.c:42:19:PCA9685_ReadRegister	1
+../Core/Src/PCA9685PW.c:47:19:PCA9685_ReadRegisters	1
+../Core/Src/PCA9685PW.c:52:19:PCA9685_WriteRegister	1
+../Core/Src/PCA9685PW.c:57:19:PCA9685_WriteRegisters	1
+../Core/Src/PCA9685PW.c:63:6:PCA9685_SetBit	2
+../Core/Src/PCA9685PW.c:73:6:PCA9685_SetPWMFrequency	3
+../Core/Src/PCA9685PW.c:85:6:PCA9685_SetPWM	1
+../Core/Src/PCA9685PW.c:97:6:PCA9685_SetServoAngle	1
+>>>>>>> adf52397ba9ac4ad7150a408a85d07a9ca600c60

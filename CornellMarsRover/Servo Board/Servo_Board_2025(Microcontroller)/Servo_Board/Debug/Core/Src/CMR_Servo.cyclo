@@ -1,0 +1,11 @@
+<<<<<<< HEAD
+../Core/Src/CMR_Servo.c:34:6:Config_Msg_Init	18
+../Core/Src/CMR_Servo.c:72:6:Control_Msg_Init	1
+../Core/Src/CMR_Servo.c:98:19:Run_Ctrl_Msg	24
+=======
+../Core/Src/CMR_Servo.c:17:6:Config_Msg_Init	1
+../Core/Src/CMR_Servo.c:28:6:Control_Msg_Init	3
+../Core/Src/CMR_Servo.c:50:6:Feedback_Msg_Init	1
+../Core/Src/CMR_Servo.c:59:6:Diagnostic_Msg_Init	1
+../Core/Src/CMR_Servo.c:65:6:parse_message	5
+>>>>>>> adf52397ba9ac4ad7150a408a85d07a9ca600c60

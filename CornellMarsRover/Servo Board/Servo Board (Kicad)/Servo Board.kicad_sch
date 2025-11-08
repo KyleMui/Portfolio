@@ -1,0 +1,308 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "4b2c0d47-e95f-422d-82c7-56e194122971")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 160.02 60.96)
+		(size 63.5 43.18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0e59b3c6-ec2c-49fb-8c65-7fe9fff368de")
+		(property "Sheetname" "Power"
+			(at 160.02 60.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 160.02 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Servo Board"
+				(path "/4b2c0d47-e95f-422d-82c7-56e194122971"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 226.06 15.24)
+		(size 55.88 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "18a64751-53de-493a-9c55-689cf0f28c0b")
+		(property "Sheetname" "Sensors"
+			(at 226.06 14.5284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sensors.kicad_sch"
+			(at 226.06 56.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Servo Board"
+				(path "/4b2c0d47-e95f-422d-82c7-56e194122971"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 15.24 15.24)
+		(size 72.39 88.9)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "28f5cc14-07b4-489a-bc5a-261444964448")
+		(property "Sheetname" "MCU"
+			(at 15.24 14.5284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 15.24 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Servo Board"
+				(path "/4b2c0d47-e95f-422d-82c7-56e194122971"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 226.06 60.96)
+		(size 55.88 43.18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "35c33a1f-d7ef-45a1-9ca0-5e6bbaf0c630")
+		(property "Sheetname" "Servo Conn"
+			(at 226.06 60.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Servo_Conn.kicad_sch"
+			(at 226.06 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Servo Board"
+				(path "/4b2c0d47-e95f-422d-82c7-56e194122971"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 226.06 110.49)
+		(size 55.88 49.53)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "be4c8c72-31f1-4c7f-b257-67c582a6b7c8")
+		(property "Sheetname" "Test Points"
+			(at 226.06 109.7784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Test_Points.kicad_sch"
+			(at 226.06 160.6046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Servo Board"
+				(path "/4b2c0d47-e95f-422d-82c7-56e194122971"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 90.17 15.24)
+		(size 67.31 88.9)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c97b10fa-3403-4a44-ba83-271af52d508b")
+		(property "Sheetname" "PWM Chip"
+			(at 90.17 14.5284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PWM_Chip.kicad_sch"
+			(at 90.17 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Servo Board"
+				(path "/4b2c0d47-e95f-422d-82c7-56e194122971"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 160.02 15.24)
+		(size 63.5 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fe47d9fe-26d8-400a-8660-f0de29460b73")
+		(property "Sheetname" "FDCAN"
+			(at 160.02 14.5284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FDCAN.kicad_sch"
+			(at 160.02 56.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Servo Board"
+				(path "/4b2c0d47-e95f-422d-82c7-56e194122971"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

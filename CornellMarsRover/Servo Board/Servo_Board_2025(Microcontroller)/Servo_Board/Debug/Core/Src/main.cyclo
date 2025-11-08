@@ -1,0 +1,18 @@
+<<<<<<< HEAD
+../Core/Src/main.c:97:6:rxHandler0	5
+../Core/Src/main.c:115:5:main	3
+../Core/Src/main.c:316:6:SystemClock_Config	3
+../Core/Src/main.c:363:13:MX_ADC1_Init	4
+../Core/Src/main.c:431:13:MX_I2C1_Init	4
+../Core/Src/main.c:479:13:MX_GPIO_Init	1
+../Core/Src/main.c:534:6:Error_Handler	1
+=======
+../Core/Src/main.c:83:6:rxHandler0	3
+../Core/Src/main.c:97:5:main	1
+../Core/Src/main.c:216:6:SystemClock_Config	3
+../Core/Src/main.c:263:13:MX_ADC1_Init	4
+../Core/Src/main.c:331:13:MX_FDCAN1_Init	2
+../Core/Src/main.c:374:13:MX_I2C1_Init	4
+../Core/Src/main.c:422:13:MX_GPIO_Init	1
+../Core/Src/main.c:477:6:Error_Handler	1
+>>>>>>> adf52397ba9ac4ad7150a408a85d07a9ca600c60

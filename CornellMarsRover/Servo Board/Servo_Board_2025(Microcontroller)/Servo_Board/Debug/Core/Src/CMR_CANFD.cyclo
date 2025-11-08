@@ -1,0 +1,14 @@
+<<<<<<< HEAD
+../Core/Src/CMR_CANFD.c:29:5:cmr_fdcan_init1	5
+../Core/Src/CMR_CANFD.c:71:19:cmr_filter_init	1
+../Core/Src/CMR_CANFD.c:84:5:transmit_message	2
+../Core/Src/CMR_CANFD.c:114:6:HAL_FDCAN_RxFifo0Callback	2
+../Core/Src/CMR_CANFD.c:134:6:FDCAN1_IT0_IRQHandler	1
+../Core/Src/CMR_CANFD.c:141:6:HAL_FDCAN_MspInit	3
+=======
+../Core/Src/CMR_CANFD.c:28:5:cmr_fdcan_init1	5
+../Core/Src/CMR_CANFD.c:70:19:cmr_filter_init	1
+../Core/Src/CMR_CANFD.c:83:5:transmit_message	2
+../Core/Src/CMR_CANFD.c:111:6:HAL_FDCAN_RxFifo0Callback	2
+../Core/Src/CMR_CANFD.c:135:6:FDCAN1_RX0_IRQHandler	1
+>>>>>>> adf52397ba9ac4ad7150a408a85d07a9ca600c60
