@@ -1,0 +1,308 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "f4840f39-b268-4636-bc7a-75b44f964d15")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 222.25 13.97)
+		(size 52.07 69.85)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0e3057ff-e12c-4f7c-a348-4c396b80bf93")
+		(property "Sheetname" "Holes and Test Points"
+			(at 222.25 13.2584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Holes.kicad_sch"
+			(at 222.25 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Fan_Board"
+				(path "/f4840f39-b268-4636-bc7a-75b44f964d15"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 67.31 13.97)
+		(size 48.26 69.85)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b5817dee-b865-4f67-98ae-f60214c01b7c")
+		(property "Sheetname" "MCU"
+			(at 67.31 13.2584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 67.31 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Fan_Board"
+				(path "/f4840f39-b268-4636-bc7a-75b44f964d15"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 13.97 13.97)
+		(size 49.53 69.85)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "beacb048-ea93-4c48-8150-43639ec09325")
+		(property "Sheetname" "Power"
+			(at 13.97 13.2584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 13.97 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Fan_Board"
+				(path "/f4840f39-b268-4636-bc7a-75b44f964d15"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 119.38 13.97)
+		(size 46.99 69.85)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bf990a3b-05bf-4b36-879b-42a23d804fc5")
+		(property "Sheetname" "Fans"
+			(at 119.38 13.2584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Fans.kicad_sch"
+			(at 119.38 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Fan_Board"
+				(path "/f4840f39-b268-4636-bc7a-75b44f964d15"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 13.97 88.9)
+		(size 49.53 53.34)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d0eda4e2-ecd0-43ba-8ef0-83e6c424abf4")
+		(property "Sheetname" "Temperature Sense"
+			(at 13.97 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Temp_Sense.kicad_sch"
+			(at 13.97 142.8246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Fan_Board"
+				(path "/f4840f39-b268-4636-bc7a-75b44f964d15"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 67.31 88.9)
+		(size 48.26 53.34)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ebdb2c27-dea9-413e-a458-37d892ec2d03")
+		(property "Sheetname" "LCD"
+			(at 67.31 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LCD.kicad_sch"
+			(at 67.31 142.8246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Fan_Board"
+				(path "/f4840f39-b268-4636-bc7a-75b44f964d15"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 171.45 13.97)
+		(size 45.72 69.85)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f6eaf333-1caf-4524-9881-fbb1ef7be5c1")
+		(property "Sheetname" "CAN"
+			(at 171.45 13.2584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CAN.kicad_sch"
+			(at 171.45 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Fan_Board"
+				(path "/f4840f39-b268-4636-bc7a-75b44f964d15"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
